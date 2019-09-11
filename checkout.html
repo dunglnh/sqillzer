@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="format-detection" content="telephone=no">
+<title>Sqillzer Checkout</title>
+<link href="css/site.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Merriweather:400italic' rel='stylesheet' type='text/css'>
+<link href="css/responsive.css" rel="stylesheet">
+
+<!--[if IE 9]>
+    <link rel="stylesheet" href="css/ie.css" type="text/css">
+    <![endif]-->
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+          <script src="js/html5shiv.min.js"></script>
+          <script src="js/respond.min.js"></script>
+        <![endif]-->
+
+</head>
+<!-- Begin Body -->
+<body>
+<div id="wrapper" class="member-area">
+  <section class="popup">
+    <div class="success-box container"> <a href="#"><img src="images/icon-close@2x.png" class="icon-close" alt="sqillzer" /></a>
+      <h2 class="title color-3 center"><img class="icon-checked" src="images/icon-error@2x.png" alt="sqillzer" /> Sorry!!!</h2>
+      <div class="icon-face center"><img src="images/logo@2x.png" alt="sqillzer" /></div>
+      <div class="inform-text center"><span>Cool, je bent nu officieel lid van de.</span> <br />
+        <strong>Sqillzer nieuwsbrief</strong></div>
+      <div class="signup-text center">
+        <button type="button" class="btn btn-green">Continue</button>
+      </div>
+    </div>
+    <!--box 1--></section>
+  <header id="page-header">
+    <div class="logo-menu">
+      <div class="container">
+        <h1 id="logo"> <a href="#"> </a> </h1>
+        <nav id="main-menu">
+          <ul>
+            <li><a href="#">Tests</a></li>
+            <li><a href="#">Participants </a></li>
+            <li><a class="active" href="#">My custom categories</a></li>
+          </ul>
+        </nav>
+        <ul class="group-nav">
+          <li class="add-test"><a href="#">&nbsp;</a></li>
+          <li class="view-faq"><a href="#">&nbsp;</a></li>
+          <li class="view-profile"><a href="#">&nbsp;</a>
+            <div class="page-dropdown">
+              <div class="arrow">&nbsp;</div>
+              <div class="content"> <a class="title color-1">Profile</a>
+                <div class="list-feature">
+                  <p><span class="quantity">5</span> <span>Tests</span></p>
+                  <p><span class="quantity">19</span> <span>Participants tested</span></p>
+                  <p class="credit"><span class="quantity">33</span> <span>Credits</span>
+                    <button type="button" class="btn btn-green">Add</button>
+                  </p>
+                </div>
+                <div class="signout alright"><a href="#" class="color-1">Sign out</a></div>
+              </div>
+            </div>
+            <!--dropdown--> 
+          </li>
+        </ul>
+        <!--group-nav-->
+        <div class="fc">&nbsp;</div>
+      </div>
+    </div>
+    <!--logo-menu--> 
+  </header>
+  <!--#page-header-->
+  <section id="page-content">
+    <div class="container content-top">
+      <h2 class="title fl color-3">Checkout <span class="sub-title">-  Betaal op factuur of direct met iDeal</span></h2>
+      <a href="#" class="back_link fr color-1">Back</a>
+      <div class="fc"></div>
+    </div>
+    <!--content-top-->
+    <div class="checkout-data  container">
+      <ul class="table">
+        <li class="row thead">
+          <div class="col col-one">Artikel omschrijving</div>
+          <div class="col col-two">Prijs</div>
+          <div class="col col-three">Aantal</div>
+          <div class="col col-four">Totaal</div>
+        </li>
+        <li class="row row-one">
+          <div class="col col-one">
+            <p><strong>Basis</strong></p>
+            <span>1 - 20 deelnemers</span></div>
+          <div class="col col-two">&euro; 139,- p/p</div>
+          <div class="col col-three">
+            <div class="quantity">
+            <span class="input-number-decrement">&nbsp;</span>
+              <input class="input-number" type="text" value="3" min="0" max="100" />
+              <span class="input-number-increment">&nbsp;</span></div>
+          </div>
+          <div class="col col-four total-price">
+            <p>&euro; 471,00</p>
+            <span class="color-6">Excl. BTW</span></div>
+        </li>
+        <li class="row row-two">
+          <div class="col col-one">
+            <p>Kortingscode:</p>
+            <a class="link-underline color-1" href="#">Hoe kom ik aan een kortingscode?</a></div>
+          <div class="col col-two">
+            <input type="text" class="text-field fl" placeholder="278347823" />
+            <button type="button" class="btn btn-navy btn-add">Toevoegen</button>
+          </div>
+          <div class="col col-four total-price">
+            <p>&euro; 00,00</p>
+          </div>
+        </li>
+        <li class="row row-three">
+          <div class="col col-three"> <span class="color-6">Eindtotaal excl. BTW</span> <br />
+            <span class="color-6">BTW 21%</span>
+            <div class="bold"> <em>Eindtotaal</em> (Incl. BTW) </div>
+          </div>
+          <div class="col col-four total-price">
+            <p>&euro; 471,00</p>
+            <span class="color-6">&euro; 87,57</span>
+             <div class="color-1 bold">&euro; 504,57</div>
+          </div>
+        </li>
+        <li class="row bg-color">
+          <div class="col col-one radio-group">
+            <input type="radio" name="method" id="method-1" class="css-checkbox choose-method" checked />
+            <label for="method-1" class="css-label"><img src="images/logo-ideal.png" alt="ideal" /> iDeal betalen</label>
+          </div>
+        </li>
+        <li class="row bg-color">
+          <div class="col col-one radio-group">
+            <input type="radio" name="method" id="method-2" class="css-checkbox choose-method" />
+            <label for="method-2" class="css-label">Op factuur</label>
+          </div>
+        </li>
+      </ul>
+      <!--table-->
+      <div class="btn-submit">
+        <button type="button" class="btn btn-green"> Afrekenen</button>
+      </div>
+    </div>
+    <!--data-table--> 
+  </section>
+  <!--#page-content-->
+  <footer id="page-footer">
+    <section class="content">
+      <div class="container">
+        <div class="newsletter fl">
+          <form action="" method="" role="form">
+            <div class="row">
+              <label class="fl font-neo ">Blijf op de hoogte van Sqillzer</label>
+              <input type="email" class="text-field fl" placeholder="Uw e-mailadres..."/>
+              <a href="#" class="btn btn-green fl">Aanmelden nieuwsbrief </a> </div>
+          </form>
+        </div>
+        <!--newsletter-->
+        <div class="social-network fr">
+          <ul>
+            <li><a href="#"><img src="images/icon-twitter@2x.png" alt="twitter" /></a></li>
+            <li><a href="#"><img src="images/icon-facebook@2x.png" alt="facebook" /></a></li>
+            <li><a href="#"><img src="images/icon-google@2x.png" alt="google" /></a></li>
+            <li><a href="#"><img src="images/icon-linkedin@2x.png" alt="linkedin" /></a></li>
+          </ul>
+          <!--social-network--> 
+          
+        </div>
+        <div class="fc">&nbsp;</div>
+      </div>
+    </section>
+    <section class="site-info">
+      <div class="container">
+        <div class="fr links"><a href="#">General Terms</a> <a href="#"> Disclaimer </a></div>
+        <div class="fl copyright">Sqillzer &copy; 2014 - Ontwikkeling begint met inzicht</div>
+        <div class="fc">&nbsp;</div>
+      </div>
+    </section>
+  </footer>
+  <!--#page-footer--> 
+</div>
+<!--wrapper--> 
+<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script> 
+<script src="js/custom.js"></script>
+</body>
+</html>
